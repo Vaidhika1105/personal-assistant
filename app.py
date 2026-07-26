@@ -35,7 +35,7 @@ if user_message:
         st.markdown(user_message)
 
     response = requests.post(
-        "https://vaidhika-11.app.n8n.cloud/webhook/63c04f9d-3c81-48f9-88b9-7ea1f52291db",
+        "PASTE_YOUR_WEBHOOK_URL",
         json={"message": user_message}
     )
 
